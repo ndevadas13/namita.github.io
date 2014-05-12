@@ -1,0 +1,51 @@
+<style>
+
+		#wrap { 
+          	display: block;
+			margin: 0 auto;
+          }
+
+        .draggable {width: 40px; height: 30px; padding: 0.5em; position: absolute; }
+          
+body{
+	margin: 20px;
+}
+
+          h1{
+            font-family: 'Source Sans Pro', 'sans-serif';
+            font-size: 40px;
+            position:absolute;
+            margin: 10px;
+            top:5px;
+            left:420px;    
+         }
+
+
+          h2{
+            font-family: 'Loved by the King', 'cursive';
+            font-size: 40px;
+            position:absolute;
+            margin: 10px;
+            top:400px;
+            left:200px;
+         }
+
+
+          h3{
+            font-family: 'Loved by the King', 'cursive';
+            font-size: 40px;
+            position:absolute;
+            margin: 10px;
+            top:400px;
+            left:900px;
+         }
+
+          .mai{
+            width:90px;
+            position:absolute;
+            top: 10px;
+            left:1100px;
+            margin: 10px;
+          }
+
+          </style>

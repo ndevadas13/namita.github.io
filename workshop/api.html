@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style>
+
+body{ background-color: yellow;
+color: white;
+margin: 20px;
+}
+
+	 h1{ 
+	font-family: sans-serif;
+
+	}
+
+	#zipcode{
+		font-family: sans-serif;
+		width: 500px;
+		height: 50px;
+		font-size: 30px;
+		color: white;
+		background-color: blue;
+		border-color: white;
+
+	}
+
+	#center{
+		display: table;
+		margin: 0 auto;
+	}
+
+/*w what is an application programming interace
+get
+post*/	
+	</style>
+		
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js">
+	</script>
+
+	<script src="jquery.simpleWeather.min.js"></script>
+
+	<script>
+
+	/*alert( weather.temp);
+
+			$("#temp").html(weather.temp);
+			
+			*/
+	$(function(){
+
+		var updateWeather = function(location) {
+
+			$.simpleWeather({
+				location: location,
+				unit: 'f',
+				success: function(weather){
+					console.log(weather);
+		
+
+					$("body").css("font-size", weather.temp * 2 + "px");
+					$("#city").html(weather.city);
+
+				},
+
+				error: function(error){
+					console.log(error);
+
+				}
+			});
+		};
+	
+		$("#submit").click(function(){
+			updateWeather($("#zipcode").val());
+		});
+
+	});
+
+
+	</script>
+
+
+</head>
+<body>
+
+<div id="center">
+	<input id="zipcode" type="text">
+	<a id="submit" href="#">submit</a>
+
+
+
+	<h1 id="city"><h1>
+</div>
+</body>
+
+</html>

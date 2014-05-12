@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html> 
+
+<head> 
+
+	<title> workshop 2 </title> 
+	
+		<style>
+background-color: #FF6699;
+
+		h1{ 
+			font-family: Helvetica;
+			font-size: 30px;
+			color: #FF6699;
+			left:-10px;
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+			padding: 20px;
+			border: 10px solid #FF6699;
+
+			
+		}
+
+	.item{
+			background-color: #FF6699;
+			float: left 10px;
+			height: 300px;
+			width: 200px;
+			margin: 20px;
+			padding: 20px;
+			box-sizing: border-box;
+	}
+
+			
+		</style>
+	
+	</head>
+
+<body> 
+
+	<div id="main">	
+		
+		<h1>Counting The Rice</h1>
+		<h2>RICE</h2>
+		<h2>SESAME</h2>
+		
+		
+	</div> 	
+
+</body>
+
+</html>

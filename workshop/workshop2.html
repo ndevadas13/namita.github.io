@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html> 
+
+<head> 
+
+	<title> workshop 2 </title> 
+	
+		<style>
+
+		#main{ 
+			display: none;
+			position: relative;
+			top:100px;
+			left:100px;
+			border: 10px solid blue
+			padding: 20px;
+		}
+		h1{ 
+			position: absolute;
+			top:-40px;
+			left:-40px;
+			width: 400px;
+			border: 10px solid blue;
+			z-index: 2;
+		}
+
+		h2{
+			position: absolute;
+			top:-20px;
+			left:-40px;
+			background-color: red;
+			z-index: 1;
+
+		}
+
+		.item{
+			height: 200px;
+			width: 200px;
+			border: 3px solid red;
+			float: left;
+			margin: 20px;
+			padding: 20px;
+			box-sizing: border-box;
+
+		}
+		.tall{
+			height: 200px;
+		}
+
+		@media all and (max-width: 600px) {
+			.item {
+				width: 100%;
+			}
+
+			body{
+				background-color: yellow;
+
+			}
+
+			@media all and (max-width: 834px) {
+
+			body{
+				
+				background-color: blue;
+				
+			}
+		}
+		}				
+		</style>
+	
+	</head>
+
+<body> 
+
+	<div id="main">	
+		<h1> Title of the page</h1>
+
+			<p class="highlighted"> 
+			Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+			minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+			ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+			velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+			deserunt mollit anim id est laborum</p>
+
+		<img width=900px src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg">
+
+		<p class=> 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+			minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+			ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+			velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+			deserunt mollit anim id est laborum</p>
+	
+	<h2> Title of the page</h2>
+		<p class="emphasized"> 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+			minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+			ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+			velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+			deserunt mollit anim id est laborum</p>
+		
+	</div> 	
+
+<div id="secondary"> </div>
+
+<div id="secondar"> 
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item tall"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+
+</body>
+
+</html>
