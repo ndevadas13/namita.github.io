@@ -1,7 +1,6 @@
 <style>
 
 		#wrap {
-      text-align: left;
      width: 900px;
      margin: 0 auto;
 }
@@ -13,23 +12,13 @@ body{
 	margin: 20px;
 }
 
-          h1{
-            font-family: 'Source Sans Pro', 'sans-serif';
-            font-size: 40px;
-            position:absolute;
-            margin: 10px;
-            top:5px;
-            left:420px;    
-         }
-
-
           h2{
             font-family: 'Loved by the King', 'cursive';
             font-size: 40px;
+            text-align: left;
             position:absolute;
-            margin: 10px;
-            top:400px;
-            left:200px;
+            margin-top:400px;
+            margin-left: 17%;
          }
 
 
@@ -37,9 +26,8 @@ body{
             font-family: 'Loved by the King', 'cursive';
             font-size: 40px;
             position:absolute;
-            margin: 10px;
-            top:400px;
-            left:900px;
+            margin-top: 400px;
+            margin-left:80%;
          }
 
           .mai{
